@@ -1,0 +1,26 @@
+name: SignalForge verification
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  recording-and-collector:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Parse, analyze and replay contracts
+        run: |
+          node --check web/app.mjs
+          node --check web/analysis.mjs
+          node --test tests/analysis.test.mjs
+      - name: Capture and command-line integration
+        run: python3 -B -m unittest discover -s tests -p 'test_*.py' -v
