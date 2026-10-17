@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "sha256": {
+    ".github/workflows/verify.yml": "3718e7e7c5d217adfdd6fc385c2e519eac0bc361325cb3179373f3031a8312a7",
+    ".gitignore": "f3354cdedf11c22aa02411bb90e08bddfa99db5c957dc463b29913e348e3f326",
+    "LICENSE": "6ecf073169d41e852f248417404bcf3e0a2609aae2d7ae60866cd06fb17ae554",
+    "README.md": "240450fc0bc06d05f38bcb39bd9df22b1dc25e4c6dbabdc6418b301f91bc081d",
+    "collector/__init__.py": "ea61094514f300743bfa7e49c74aa67589455635d56347c26f6c64755811bf35",
+    "collector/capture.py": "03743096c97d28cf41aae071b6a69315d3be21a5990e6d483119db53a52bb1d0",
+    "docs/desktop.jpg": "9171b58dde360782dca4dad43b2285aa7ebb84628e4c461e589b1aca705e72a9",
+    "docs/method.md": "892cc9358fc6654fd31421f9e816c8d165104cc64c786da4cbc9637fd6873b8e",
+    "docs/research.md": "31f71ae3884e71b96b4d4f1fad09068198c89e3123fb112eee8339aaac2500e3",
+    "docs/verification.md": "bca63de72afbe59444e6d9ee82ea42063abbad9a59d600b707cac2f5669b71aa",
+    "examples/producer.py": "b20748d3e448c20883cd955ed78e205cdaa1c5ce892c1937b3e6ff815176f66a",
+    "package.json": "f17fe791a5158f411d94e761f32687e39fd85f47001f42affa1a767cb5b09c9d",
+    "release.py": "51ca27fc730640018aed9ab0304992e0b26b24ce6124c86914f9b5af7395a3df",
+    "tests/analysis.test.mjs": "24ce986bea4fef76d58a69d1271d25bc324e34feef25ca3f7a71bf9b2403fca8",
+    "tests/test_capture.py": "5e4ce486e40c4194f4ba39936270201b4115a29840fc7543686c0c0b68804656",
+    "tests/test_cli.py": "dd49a82af22a0ab56964ade2fdddc8e8e8d98808fba48383685436b7180a8f37",
+    "web/analysis.mjs": "46e730fb719136314959c89e15f3cb7d8d30b3fa564ef128db8cebd62c09e0d9",
+    "web/app.mjs": "2ddc729637d353f6c05b790cf44e57f86ddd165f872b9d4d6099ecc1f4de0407",
+    "web/favicon.svg": "b4b57089b38367aacad21261084e4fc5adf8280b13808cd1194cfef7aa0a01fa",
+    "web/index.html": "ed669087101e763e05a58a7e0e8532c95f1ec33a426df20a3593da2a355e9132",
+    "web/styles.css": "b4f52ea19fed3e64c893af9ce12d8cdc45e5ef51187832b93232de15ee33342d"
+  }
+}
